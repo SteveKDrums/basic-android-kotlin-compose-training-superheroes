@@ -1,23 +1,12 @@
 /*
  * Copyright (C) 2023 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     https://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * SPDX-License-Identifier: Apache-2.0
  */
-
 package com.example.superheroes.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
+// ===== Base palette (from your file) =====
 val md_theme_light_primary = Color(0xFF466800)
 val md_theme_light_onPrimary = Color(0xFFFFFFFF)
 val md_theme_light_primaryContainer = Color(0xFFC6F181)
@@ -77,3 +66,22 @@ val md_theme_dark_inversePrimary = Color(0xFF466800)
 val md_theme_dark_surfaceTint = Color(0xFFABD468)
 val md_theme_dark_outlineVariant = Color(0xFF45483D)
 val md_theme_dark_scrim = Color(0xFF000000)
+
+// ===== Added: tone-based surface roles used by M3 components (Cards/ListItems, etc.) =====
+// Light
+val md_theme_light_surfaceBright = Color(0xFFF3F7EF)
+val md_theme_light_surfaceContainerLowest = Color(0xFFFFFFFF)
+val md_theme_light_surfaceContainerLow = Color(0xFFF1F5EE)
+val md_theme_light_surfaceContainer = Color(0xFFE9EEE6)
+val md_theme_light_surfaceContainerHigh = Color(0xFFE3E9E0)
+val md_theme_light_surfaceContainerHighest = Color(0xFFDDE4DA)
+val md_theme_light_surfaceDim = Color(0xFFD7DDD3)
+
+// Dark
+val md_theme_dark_surfaceBright = Color(0xFF30352E)
+val md_theme_dark_surfaceContainerLowest = Color(0xFF0B0F0A)
+val md_theme_dark_surfaceContainerLow = Color(0xFF141913)
+val md_theme_dark_surfaceContainer = Color(0xFF192018)
+val md_theme_dark_surfaceContainerHigh = Color(0xFF222920)
+val md_theme_dark_surfaceContainerHighest = Color(0xFF2C3329)
+val md_theme_dark_surfaceDim = Color(0xFF0F150F)
