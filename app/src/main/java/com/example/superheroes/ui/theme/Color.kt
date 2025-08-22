@@ -6,7 +6,7 @@ package com.example.superheroes.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-// ===== Base palette (from your file) =====
+// ===== Color palette =====
 val md_theme_light_primary = Color(0xFF466800)
 val md_theme_light_onPrimary = Color(0xFFFFFFFF)
 val md_theme_light_primaryContainer = Color(0xFFC6F181)
